@@ -1,18 +1,15 @@
 
-export type usuario = {
-    user: string,
-    pass: string
+export type reserva = {
+    day:number,
+    month:number,
+    year:number,
+    seat:number
 }
 
-export type MONGOcharacter = {
-    id: string,
-    name: string,
-    species: string,
-    status: string,
-    episode: episode[],
-}
-
-export type episode = {
-    name: string,
-    episode:string
+export type MONGOreserva = {
+    token:string,
+    day:string,
+    month:string,
+    year:string,
+    seat:string
 }
